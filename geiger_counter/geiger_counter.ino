@@ -7,13 +7,11 @@
 
 int range = 6;
 int x = 0;
-int sensor;
 unsigned long time_of_last_beep = millis();
 int sleep_time = 50;  // sensor delay to save power
 
 void setup() {
   // put your setup code here, to run once:
-  int range;
   pinMode(ledPin, OUTPUT);
   pinMode(sensorPin, INPUT);
 }
